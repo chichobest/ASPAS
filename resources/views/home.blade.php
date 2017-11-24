@@ -5,9 +5,9 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Welcome!</div>
+                    <div class="panel-heading">Panel de administración!</div>
                     <div class="panel-body">
-                        <p>Welcome to ASPAS Admin</p>
+                        <p>Bienvenido <strong>{{ Auth::user()->name }}</strong></p>
                     </div>
                 </div>
             </div>
